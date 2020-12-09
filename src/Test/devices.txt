@@ -1,0 +1,25 @@
+152321,LG,TV OLED65CX6LA,5646
+152322,Apple,clock apple Watch,8101
+152323,Bosh,Easy Access FV1543,526
+152324,Logos,Good Java programmer,9286
+152325,Saturn,Access ,4212
+152326,LG,CD player,7153
+152327,Apple,smartphone X,5568
+152328,Bosh,table lamp ASDF,2508
+152329,Logos,QA,8718
+152330,Saturn,table lamp ERT55,212
+152331,LG,table lamp 655,2011
+152332,Apple,Smartphone XS,9773
+152333,Bosh,Iron FV1543,3531
+152334,Logos,BA,1874
+152335,Saturn,phone IO09,1357
+152336,LG,Iron KKOI8,2051
+152337,Apple,iXreni,470
+152338,Bosh,Washing machine Ultra mega 228,3347
+152339,Logos,UI/UX,6448
+152340,Saturn,Iron 9999,8055
+152341,LG,Iron 10000,9563
+152342,Apple,iXreni XS,6987
+152343,Bosh,Laptop XK6,36660
+152344,Logos,C#,7036
+152345,Saturn,Laptop ggs66,4009
