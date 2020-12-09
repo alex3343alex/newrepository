@@ -16,10 +16,10 @@ public class Circle {
     }
 
     public void PrintArea() {
-        System.out.println("your area = " + this.diametre / 2.0D * this.diametre / 2.0D * 3.141592653589793D);
+        System.out.println("your area = " + this.diametre / 2.0D * this.diametre / 2.0D * Math.PI);
     }
 
     public void PrintLength() {
-        System.out.println(" your length = " + this.radius * 2.0D * 3.141592653589793D);
+        System.out.println(" your length = " + this.radius * 2.0D * Math.PI);
     }
 }
