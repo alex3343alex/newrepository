@@ -10,9 +10,9 @@ public class Bank {
 
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
-            System.out.println(" How much money do you wanna invest? ");
+            System.out.println(" How much money would you like to invest? ");
             double principle = input.nextDouble();
-            System.out.println("\n What is APR?  (4.9 = 4.9%)");
+            System.out.println("\n What is APR?  (4,9 = 4,9%)");
             double rate = input.nextDouble();
             rate /= 100.0D;
             System.out.println("\n How long do you want to invest this money for?");
