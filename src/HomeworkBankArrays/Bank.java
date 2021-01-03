@@ -2,11 +2,7 @@ package HomeworkBankArrays;
 
 import java.util.Scanner;
 
-public class Bank {
-
-    public static class BankDeposit {
-        public BankDeposit() {
-        }
+    public class Bank {
 
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
@@ -21,4 +17,3 @@ public class Bank {
             System.out.println("\n The total amount of money you will get after -  " + Time + " years is " + total);
         }
     }
-}
