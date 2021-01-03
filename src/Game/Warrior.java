@@ -1,10 +1,5 @@
 package Game;
 
-enum AtackResult {
-    Killed,
-    NotKilled
-}
-
 public class Warrior {
     public int HP;
     public String name;
@@ -16,12 +11,12 @@ public class Warrior {
         this.weapon = weapon;
     }
 
-    public AtackResult Atack(Warrior warrior) {
+    public Actions Atack(Warrior warrior) {
         if(warrior.HP - this.weapon.damage <= 0) {
-            return AtackResult.Killed;
+            return Actions.KILLED;
         } else  {
             warrior.HP = warrior.HP - this.weapon.damage;
-            return AtackResult.NotKilled;
+            return Actions.NOTKILLED;
         }
     }
 

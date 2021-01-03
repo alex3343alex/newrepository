@@ -1,12 +1,5 @@
 package Game;
 
-enum WeaponType {
-    Bowl,
-    GUN,
-    Spear,
-    Sward
-}
-
 public class Weapon {
     public int damage;
     public  String name;
