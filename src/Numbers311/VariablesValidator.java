@@ -6,11 +6,11 @@ public class VariablesValidator {
         if
             (a < 0 && b < 0) {throw new IllegalArgumentException();
         }
-        if  (a==0 && b!=0) {throw new ArithmeticException();
+        if  (a == 0 && b != 0) {throw new ArithmeticException();
         }
-        if (a==0 && b==0){throw new IllegalAccessException();
+        if (a == 0 && b == 0){throw new IllegalAccessException();
         }
-        if (a>0 && b>0) {
+        if (a > 0 && b > 0) {
             throw new MyException();
         }
     }

@@ -8,7 +8,7 @@ public class Methods {
 
     public static void main(String[] args) {
         System.out.println("Start yes/no");
-        while (Continue()) {
+        while (DoYWontToContinue()) {
             System.out.println("select operation: 1.Add 2.Minus 3. Divide 4. Multiply ");
             int operation = scanner.nextInt();
 
@@ -66,7 +66,7 @@ public class Methods {
 
         return valid;
     }
-    public static boolean Continue() {
+    public static boolean DoYWontToContinue() {
         String s = scanner.nextLine();
         System.out.println();
         boolean yes = true;
